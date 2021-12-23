@@ -1,6 +1,9 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
+from linear_regression import NormalLR
+from lasso_regression import GradientLR
+from metrics import mse, r2
 
 
 def read_data(path="boston.csv"):
