@@ -33,9 +33,9 @@ def build_plot(
     plt.show()
 
 
-if __name__ == __main__:
+if __name__ == '__main__':
     # Чтение данных из датасета Бостон, разбиение на тестовую и трен. выборки
-    X, y = read_data()
+    X, y = read_data('data/boston.csv')
     X_train, X_test, y_train, y_test = \
         train_test_split(X, y, train_size=0.8, shuffle=False)
 
