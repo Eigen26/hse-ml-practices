@@ -1,0 +1,26 @@
+************* Module correct_code
+__init__.py:8:0: E0401: Unable to import 'linear_regression' (import-error)
+__init__.py:9:0: E0401: Unable to import 'lasso_regression' (import-error)
+__init__.py:10:0: E0401: Unable to import 'metrics' (import-error)
+__init__.py:18:4: W0621: Redefining name 'X' from outer scope (line 42) (redefined-outer-name)
+__init__.py:19:4: W0621: Redefining name 'y' from outer scope (line 42) (redefined-outer-name)
+__init__.py:18:4: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+__init__.py:19:4: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+__init__.py:24:4: C0103: Argument name "X_train" doesn't conform to snake_case naming style (invalid-name)
+__init__.py:25:4: C0103: Argument name "X_test" doesn't conform to snake_case naming style (invalid-name)
+__init__.py:27:4: C0103: Argument name "st" doesn't conform to snake_case naming style (invalid-name)
+__init__.py:27:26: C0103: Argument name "it" doesn't conform to snake_case naming style (invalid-name)
+__init__.py:24:4: W0621: Redefining name 'X_train' from outer scope (line 43) (redefined-outer-name)
+__init__.py:24:13: W0621: Redefining name 'y_train' from outer scope (line 43) (redefined-outer-name)
+__init__.py:25:4: W0621: Redefining name 'X_test' from outer scope (line 43) (redefined-outer-name)
+__init__.py:25:12: W0621: Redefining name 'y_test' from outer scope (line 43) (redefined-outer-name)
+__init__.py:27:4: W0621: Redefining name 'st' from outer scope (line 49) (redefined-outer-name)
+__init__.py:23:0: R0913: Too many arguments (9/5) (too-many-arguments)
+__init__.py:30:4: C0103: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+__init__.py:32:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+__init__.py:99:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+__init__.py:121:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+
+------------------------------------------------------------------
+Your code has been rated at 5.07/10 (previous run: 5.07/10, +0.00)
+
